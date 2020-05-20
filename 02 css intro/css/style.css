@@ -1,0 +1,73 @@
+/* *selector{
+    property: value;
+} */
+
+body {
+    background-color: beige;
+    color: darkblue;
+    /* background-image:url(../image/2.png), url(../image/1.png); */
+    /* background-size: 10%, 25%;
+    background-repeat: no-repeat;
+    background-position: left bottom, right bottom;
+    background-attachment: fixed; */
+    background-image: url(../image/2.jpg);
+    background-size: cover;
+}
+
+p {
+    /* color: green; */
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 5%;
+    word-spacing: 10px;
+    color: transparent;
+    background: rgb(235, 138, 158);
+    background: radial-gradient(circle, rgba(235, 138, 158, 1) 31%, rgba(63, 94, 251, 1) 86%);
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+i {
+    color: red;
+}
+
+span {
+    color: purple;
+    /* font-weight: bold; */
+    /* text-decoration: underline;
+    text-decoration-color: lightcoral;
+    text-decoration-style: dotted; */
+    text-decoration: double underline lightcoral;
+}
+
+hr {
+    width: 50%;
+    height: 5px;
+    background-color: lime;
+    border: none;
+}
+
+header {
+    /* border-style: double;
+    border-width: 2px;
+    border-color: red; */
+    border-radius: 20px 50px;
+    border: blue solid 5px;
+    border-left-style: inset;
+    /* border-right: 3px red dashed;
+    border-top: dashed 10px green; */
+    /* background: wheat; */
+    text-shadow: 10px 3px 10px yellow;
+}
+
+section {
+    font-size: 24px;
+    background-image: url(../image/3.jpg);
+    background-attachment: fixed;
+}
